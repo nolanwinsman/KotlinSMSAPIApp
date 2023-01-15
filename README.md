@@ -69,3 +69,17 @@ That repository is designed for automating texts with crontab or another schedul
 ## TODO
 
 - Make app run in background
+
+# Contact
+
+Nolan Winsman - [@Github](https://github.com/nolanwinsman) - nolanwinsman@gmail.com
+
+Project Link: [https://github.com/nolanwinsman/KotlinSMSAPIApp.git](https://github.com/nolanwinsman/KotlinSMSAPIApp.git)
+
+# Contributers
+- nolanwinsman
+
+## Files
+
+- /KotlinSMSAPIApp/app/src/main/java/com/example/birthdayscheduler/MainActivity.kt : The main file for this program. This is where you should make any changes
+- README.md : this file

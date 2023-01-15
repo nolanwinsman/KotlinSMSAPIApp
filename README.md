@@ -11,10 +11,10 @@ After you setup this app and the Python code for POST requests, you are able to 
 So on my computer, I would send a POST request like this using Python
 
 ```python
-        url = f"http://{phone_ip}:{port}"
-        data = {"number": str(number), "message": str(message), "Authorization": str(auth_token)}
-        headers = {'Content-type': 'application/json'}
-        response = requests.post(url, json=data, headers=headers) # sends the POST request to your Android Phone
+url = f"http://{phone_ip}:{port}"
+data = {"number": str(number), "message": str(message), "Authorization": str(auth_token)}
+headers = {'Content-type': 'application/json'}
+response = requests.post(url, json=data, headers=headers) # sends the POST request to your Android Phone
 ```
 
 Where the variables are equal to...

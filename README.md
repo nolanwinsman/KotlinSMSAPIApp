@@ -20,11 +20,11 @@ response = requests.post(url, json=data, headers=headers) # sends the POST reque
 Where the variables are equal to...
 
 ```python
-    phone_ip = "IP_ADDRESS Of your Phone Running this App" # Note, the Android app will show you your IP Address
-    port = "9000" # by default this is set to 9000. If you want to change this, change it in MainActivity.kt
-    number = "123456" # the phone number you want to send an SMS to
-    message = "This is an example text message" # the message you want sent to the number
-    auth_token = "123456789" # by default it's set to this number. You should change the auth token to something more secure. Instructions below
+phone_ip = "IP_ADDRESS Of your Phone Running this App" # Note, the Android app will show you your IP Address
+port = "9000" # by default this is set to 9000. If you want to change this, change it in MainActivity.kt
+number = "123456" # the phone number you want to send an SMS to
+message = "This is an example text message" # the message you want sent to the number
+auth_token = "123456789" # by default it's set to this number. You should change the auth token to something more secure. Instructions below
 ```
 
 ## Why Use This App

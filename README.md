@@ -44,7 +44,7 @@ git clone https://github.com/nolanwinsman/KotlinSMSAPIApp.git
 
 2. Change the value of validAuthToken on **MainActivity.kt** By default it is set to **123456789** This is not a secure password so you will want to change it to a secure password. Currently this value is on line **73**
 
-```sh
+```kotlin
 val validAuthToken = "123456789"
 ```
 
@@ -70,16 +70,21 @@ That repository is designed for automating texts with crontab or another schedul
 
 - Make app run in background
 
-# Contact
+## Contact
 
 Nolan Winsman - [@Github](https://github.com/nolanwinsman) - nolanwinsman@gmail.com
 
 Project Link: [https://github.com/nolanwinsman/KotlinSMSAPIApp.git](https://github.com/nolanwinsman/KotlinSMSAPIApp.git)
 
-# Contributers
+## Contributers
 - nolanwinsman
 
 ## Files
 
 - /KotlinSMSAPIApp/app/src/main/java/com/example/birthdayscheduler/MainActivity.kt : The main file for this program. This is where you should make any changes
 - README.md : this file
+
+## Todo
+- App Home Screen displays more info. Info like Port number, Auth token
+- Ability to set Auth token on App
+- Add some kind of logging
